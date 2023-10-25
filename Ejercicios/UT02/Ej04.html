@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Formulario</title>
+</head>
+<body>
+    <h2>Reserva instalacion deportiva</h2>
+    <form action="registro.php" method="post">
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <table>
+                <tr>
+                    <td><label for="Nomber">Nombre</label></td>
+                    <td colspan="2"><input type="text" name="usuario" maxlength="50"size="50"></td>
+                    <td><label for="Domicilio">Domicilio</label></td>
+                    <td colspan="2"><input type="text" name="Domicilio"maxlength="50"size="50"></td>
+                    
+                </tr>
+                <tr>
+                    <td><label for="Documento">Documento</label></td>
+                    <td><select name="Documento">
+                        <option value=""></option>
+                        <option value="M">DNI</option>
+                        <option value="A">NIE</option>
+                        <option value="B">Pasaporte</option>
+                        </select>
+                    </td>
+
+                    <td><label for="Numdoc">Numero Documento</label></td>
+                    <td><input type="text" name="Numdoc"></td>
+                    <td><label for="Sexo">Sexo</label></td>
+                    <td>
+                        <input type="radio" value="Hombre" name="sexo"><label for="Hombre">Hombre</label>
+                        <input type="radio" value="Mujer"name="sexo"> <label for="Mujer">Mujer</label>
+                    </td>  
+                </tr>
+                <tr>
+                    <td><label for="Telefno">Telefono</label></td>
+                    <td><input type="text"name="Telefono"></td>
+                    <td><label for="Correo">Correo electronico</label></td>
+                    <td colspan="3"><input type="text"name="Correo"maxlength="50"size="50"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Datos de la instalacion de la reserva</legend>
+            <table>
+                <tr>
+                    <td><label for="Instalaciones">Instalaciones</label></td>
+                    <td><select name="Instalacion">
+                        <option value=""></option>
+                        <option value="M">Football sala interior</option>
+                        <option value="A">Football sala exterior</option>
+                        <option value="B">Baloncesto</option>
+                        <option value="c">Sala Multideporte</option>
+                        </select>
+                    </td>
+                    <td><label for="Fecha">Fecha</label></td>
+                    <td><input type="date" name="Fecha"></td>
+                    <td><label for="Hora inicio">Hora inicio</label></td>
+                    <td><input type="time"name="hora"></td>
+                    <td><label for="NumHoras">Num. Horas(max. 3 horas)</label></td>
+                    <td><input type="number"name="NumHoras"  maxval="3"></td>
+                </tr>
+                <tr>
+                    <td><label for="ContIlu">Contratar Iluminacion</label></td>
+                    <td>
+                        <input type="radio" value="Si" name="Si"><label for="ContIluSi">Si</label>
+                        <input type="radio" value="no"name="no"> <label for="ContIluNo">No</label>
+                    </td>  
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="chek"></td>
+                    <td>Aceptas las condidciones del alquiler de la instalacion y normas del conjunto deportivo</td>
+                </tr>
+                <tr>
+                    
+                    <td colspan="2" align="center">
+                        <input type="submit" value="Proceder a la reservea" >
+                        <input type="reset" value="Borrar Formulario" >
+                    </td>
+                    
+                    
+                </tr>
+
+
+
+
+
+            </table>
+        </fieldset>
+
+    </form>
+    
+</body>
+</html>

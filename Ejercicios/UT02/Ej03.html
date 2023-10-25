@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>EJercicio 3</title>
+</head>
+<body>
+    <h1>Ejercicio de HTML. Formularios <br></h1>
+    <h3>Formulario de registro</h3>
+    <form action="registro.php" method="get">
+        <table>
+            <tr>
+                <td><label for="Nomber">Nombre</label></td>
+                <td><input type="text" name="usuario"></td>
+            </tr>
+            <tr>
+                <td><label for="Apellido">Apellido</label></td>
+                <td><input type="text" name="usuario"></td>
+            </tr>
+            <tr>
+                <td><label for="Sexo">Sexo</label></td>
+                <td><input type="radio" value="Hombre" name="sexo"><label for="Hombre">Hombre</label>
+                <input type="radio" value="Mujer"name="sexo"> <label for="Mujer">Mujer</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Correo">Correo</label></td>
+                <td><input type="email" name="correo"></td>
+            </tr>
+            <tr>
+                <td><label for="poblacion">Poblacion</label></td>
+                <td>
+                    <select name="Provincio">
+                        <option value="M">Madrid</option>
+                        <option value="A">Alicante</option>
+                        <option value="B">Barcelona</option>
+                        <option value="s">Sevilla</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><p>Descripcion</p></td>
+            </tr>
+            <tr>
+                <td><textarea name="descripcion"cols="40" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Enviar" >
+                </td>
+            </tr>
+
+        </table>    
+    </form>
+
+
+</body>
+</html>

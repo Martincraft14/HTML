@@ -1,0 +1,6 @@
+h1,h2,h3{
+    color: rebeccapurple;
+}
+h1{ background-color: rgb(185, 20, 136, 0.5)}
+h2{ background-color: rgb(13, 167, 21, 0.5)}
+h3{ background-color: rgb(10, 80, 185, 0.5)}
