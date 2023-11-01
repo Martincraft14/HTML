@@ -1,0 +1,16 @@
+p{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.pespecial{
+    color: yellow;
+    margin-right: 960px;
+    padding: 20px;
+    border-width: 10px;
+    background-color: rgb(0, 255,0, 0.5 );
+    border-color: orange;
+    
+    border-style:double;
+    
+   
+}
