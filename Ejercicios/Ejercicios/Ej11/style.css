@@ -1,0 +1,22 @@
+p{
+    color: white;
+    background-color: blue;
+    margin-left: 30px;
+    margin-right: 10px;
+    border: 5px solid red;
+    border-top: 0px;
+    border-bottom: 0px;
+    
+}
+
+.caja1{
+    border: 3px solid blue;
+    background-color: yellow;
+   
+
+}
+.caja2{
+    margin-top: 20px;
+    border: 3px solid blue;
+    background-color: yellow;
+}
